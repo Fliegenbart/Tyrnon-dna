@@ -232,6 +232,14 @@ body::before {
   background: var(--electric);
 }
 
+.section-intro {
+  font-size: clamp(17px, 2vw, 22px);
+  line-height: 1.65;
+  color: #bbb;
+  max-width: 760px;
+  margin-bottom: 52px;
+}
+
 .credo-block {
   margin-bottom: 100px;
   max-width: 900px;
@@ -360,6 +368,15 @@ body::before {
   background: linear-gradient(to bottom, transparent, var(--electric));
 }
 
+.nordstern-kicker {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 52px);
+  line-height: 1.05;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+  max-width: 900px;
+}
+
 .nordstern-symbol {
   width: 80px;
   height: 80px;
@@ -394,6 +411,14 @@ body::before {
 
 .nordstern-label::before {
   display: none;
+}
+
+.nordstern-lead {
+  font-size: 14px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--grey);
+  margin-bottom: 28px;
 }
 
 .nordstern blockquote {
